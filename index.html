@@ -1,33 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title></title>
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
+    <script src="script.js" defer></script>
 </head>
 <body>
+    
+    <nav class="nav_header">
+        <div class="nav_header__logo">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                       
+            <h1 class="h1text">travelPro</h1>
+        </div>
+        <div class="menu_header" id="menu-btn">
+            <i class="three-bars"></i>
+        </div>
 
-  <div class="container">
-    <header>
-      <h1>My Blog</h1>
+
+        <ul class="nav-header-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+       <button class="nav-menu-btn"> Contact Us
+        <span class="right-arrow"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m600-200-57-56 184-184H80v-80h647L544-704l56-56 280 280-280 280Z"/></svg></span>
+ </button>
+
+    </nav>
+     
+    <section class="header-section-main">
+    <header class="section-container header-container"> 
+        <div class="decore">
+            <img class="header-image1"  src="./Screenshot_2025-05-20_at_6.13.44_PM-removebg-preview.png" alt="Decorative Image"></div>
+            <div class="header-image2">
+                <img src="./Screenshot_2025-05-20_at_6.11.36_PM-removebg-preview.png" alt="Header Image">
+            </div>
+            <div class="header-content">
+                <h1>Explore The World And </h1>
+                <h1 class="h1-2">Enjoy Your Trip</h1>
+                <P class="section-description">Discover breathtaking destinations and create unforgettable memories with Advanto. From </P>
+                <p class="section-description2">scenic landscapes to vibrant cities, your next adventure awaits. Let's make your dream trip a </p>
+                <p class="section-description3">reality!</p>
+                
+
+<div class="last-section">
+                <div class="location-date-main">
+                <p class="location-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#75FBFD"><path d="M480.06-486.67q30.27 0 51.77-21.56 21.5-21.55 21.5-51.83 0-30.27-21.56-51.77-21.55-21.5-51.83-21.5-30.27 0-51.77 21.56-21.5 21.55-21.5 51.83 0 30.27 21.56 51.77 21.55 21.5 51.83 21.5ZM480-168q129.33-118 191.33-214.17 62-96.16 62-169.83 0-114.86-73.36-188.1-73.36-73.23-179.97-73.23T300.03-740.1q-73.36 73.24-73.36 188.1 0 73.67 63 169.83Q352.67-286 480-168Zm0 88Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>
+                    <h5 class="loc-text">location</h5>
+                </p> 
+                <p class="sahara">Sahara Desert, Algeria</p>
+               
+            </div>
+            <div class="date-main">
+                <p class="date-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#75FBFD"><path d="M186.67-80q-27 0-46.84-19.83Q120-119.67 120-146.67v-600q0-27 19.83-46.83 19.84-19.83 46.84-19.83h56.66V-880h70v66.67h333.34V-880h70v66.67h56.66q27 0 46.84 19.83Q840-773.67 840-746.67v600q0 27-19.83 46.84Q800.33-80 773.33-80H186.67Zm0-66.67h586.66v-420H186.67v420Zm0-486.66h586.66v-113.34H186.67v113.34Zm0 0v-113.34 113.34ZM480-400q-17 0-28.5-11.5T440-440q0-17 11.5-28.5T480-480q17 0 28.5 11.5T520-440q0 17-11.5 28.5T480-400Zm-160 0q-17 0-28.5-11.5T280-440q0-17 11.5-28.5T320-480q17 0 28.5 11.5T360-440q0 17-11.5 28.5T320-400Zm320 0q-17 0-28.5-11.5T600-440q0-17 11.5-28.5T640-480q17 0 28.5 11.5T680-440q0 17-11.5 28.5T640-400ZM480-240q-17 0-28.5-11.5T440-280q0-17 11.5-28.5T480-320q17 0 28.5 11.5T520-280q0 17-11.5 28.5T480-240Zm-160 0q-17 0-28.5-11.5T280-280q0-17 11.5-28.5T320-320q17 0 28.5 11.5T360-280q0 17-11.5 28.5T320-240Zm320 0q-17 0-28.5-11.5T600-280q0-17 11.5-28.5T640-320q17 0 28.5 11.5T680-280q0 17-11.5 28.5T640-240Z"/></svg>
+                    <h5 class="date-text">Date</h5>
+                </p> 
+                <p class="date-time">18th, December 2024</p>
+            </div>
+            <button class="search">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#FFFFFF"><path d="M792-120.67 532.67-380q-30 25.33-69.64 39.67Q423.39-326 378.67-326q-108.44 0-183.56-75.17Q120-476.33 120-583.33t75.17-182.17q75.16-75.17 182.5-75.17 107.33 0 182.16 75.17 74.84 75.17 74.84 182.27 0 43.23-14 82.9-14 39.66-40.67 73l260 258.66-48 48Zm-414-272q79.17 0 134.58-55.83Q568-504.33 568-583.33q0-79-55.42-134.84Q457.17-774 378-774q-79.72 0-135.53 55.83-55.8 55.84-55.8 134.84t55.8 134.83q55.81 55.83 135.53 55.83Z"/></svg>
+            </button>
+
+            </div>
+</div>
     </header>
-
-    <div class="main-content">
-      <div class="content">
-        <h2>Blog Title</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor beatae cum, distinctio consequuntur iusto nihil fugiat quis non ipsam officiis, ut unde rem id aliquam, minus hic mollitia aliquid dolorem.</p>
-      </div>
-
-      <aside class="bar">
-        <h3>bar</h3>
-        <p>Lorem ipsum dolor sit amet</p>
-      </aside>
-    </div>
-
-    <footer>
-      <p>© 2025 My Blog</p>
-    </footer>
-  </div>
-
+    </section>
 </body>
 </html>
